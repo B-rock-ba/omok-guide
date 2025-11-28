@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Omok Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Nunito:wght@400;600;700&display=swap');
+      
+      body {
+        font-family: 'Nunito', 'Noto Sans KR', sans-serif;
+      }
+      
+      .wood-texture {
+        background-color: #eecfa1;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4a76a' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+      }
+
+      .stone-shadow {
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+      }
+      
+      .stone-white {
+        background: radial-gradient(circle at 30% 30%, #ffffff, #e0e0e0);
+      }
+      
+      .stone-black {
+        background: radial-gradient(circle at 30% 30%, #4a4a4a, #000000);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-stone-100 text-stone-800 antialiased selection:bg-amber-200">
+    <div id="root"></div>
+  </body>
+</html>
